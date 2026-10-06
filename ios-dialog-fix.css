@@ -1,0 +1,7 @@
+/* iPhone/Safari admin editor fix only. */
+html,body{pointer-events:auto!important}
+body{overflow:auto!important}
+[data-scroll-locked]{overflow:auto!important;padding-right:0!important;margin-right:0!important}
+[data-slot="dialog-overlay"]{pointer-events:auto!important;z-index:1000!important}
+[data-slot="dialog-content"].edit-dialog{display:block!important;position:fixed!important;top:50%!important;left:50%!important;right:auto!important;bottom:auto!important;transform:translate(-50%,-50%)!important;z-index:1001!important;pointer-events:auto!important;max-height:90dvh!important;overflow-y:auto!important;-webkit-overflow-scrolling:touch!important}
+[data-slot="dialog-content"].edit-dialog *{pointer-events:auto!important}
